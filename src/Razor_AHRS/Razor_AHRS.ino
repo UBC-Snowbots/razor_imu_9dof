@@ -248,9 +248,16 @@ float MAGN_Z_MAX = 600;
 
 // Magnetometer (extended calibration mode)
 // Set to true to use extended magnetometer calibration (compensates hard & soft iron errors)
+
+boolean CALIBRATION__MAGN_USE_EXTENDED = true;
+float magn_ellipsoid_center[3] = {141.999, -83.9507, -5.63981};
+float magn_ellipsoid_transform[3][3] = {{0.864343, 0.0350721, -0.0283378}, {0.0350721, 0.859587, 0.0267272}, {-0.0283378, 0.0267272, 0.991215}};
+
+/*
 boolean CALIBRATION__MAGN_USE_EXTENDED = false;
 float magn_ellipsoid_center[3] = {0, 0, 0};
 float magn_ellipsoid_transform[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 0}};
+*/
 
 // Gyroscope
 // "gyro x,y,z (current/average) = .../OFFSET_X  .../OFFSET_Y  .../OFFSET_Z
