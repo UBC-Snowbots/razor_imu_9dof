@@ -4,12 +4,12 @@ port: /dev/ttyUSB4
 
 ##### Calibration ####
 ### accelerometer
-accel_x_min: -250.0
-accel_x_max: 250.0
-accel_y_min: -250.0
-accel_y_max: 250.0
-accel_z_min: -250.0
-accel_z_max: 250.0
+accel_x_min: -265.0
+accel_x_max: 253.0
+accel_y_min: -254.0
+accel_y_max: 263.0
+accel_z_min: -275.0
+accel_z_max: 240.0
 
 ### magnetometer
 # standard calibration
@@ -29,6 +29,6 @@ magn_ellipsoid_transform: [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 imu_yaw_calibration: 0.0
 
 ### gyroscope
-gyro_average_offset_x: 0.0
-gyro_average_offset_y: 0.0
-gyro_average_offset_z: 0.0
+gyro_average_offset_x: -20.12
+gyro_average_offset_y: 59.14
+gyro_average_offset_z: 1.88
