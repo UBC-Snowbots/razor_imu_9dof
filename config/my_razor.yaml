@@ -21,12 +21,15 @@ magn_z_min: -600.0
 magn_z_max: 600.0
 
 # extended calibration
-# Calibration values with the two GPS units mounted
 calibration_magn_use_extended: true
+# Calibration values with the two GPS units mounted
+# Second Attempt
+magn_ellipsoid_center: [198.102, -43.3047, 147.993]
+magn_ellipsoid_transform: [[0.893049, 0.0210799, -0.00264962], [0.0210799, 0.905347, -0.00424560], [-0.00264962, -0.00424560, 0.999683]]
+# First Attempt
 magn_ellipsoid_center: [235.763, 26.5002, 204.774]
 magn_ellipsoid_transform: [[0.906274, 0.0256863, 0.0141310], [0.0256863, 0.851375, 0.0216864], [0.0141310, 0.0216864, 0.993256]]
 # Calibration values with just the camera mounted
-#calibration_magn_use_extended: true
 #magn_ellipsoid_center: [147.915, -55.2544, 138.007]
 #magn_ellipsoid_transform: [[0.799802, -0.0289665, -0.0336112], [-0.0289665, 0.854718, 0.00703856], [-0.0336112, 0.00703856, 0.993353]]
 # Default calibration values
