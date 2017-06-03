@@ -1,5 +1,5 @@
 ## USB port
-port: /dev/ttyUSB0
+port: /dev/ttyUSB2
 
 
 ##### Calibration ####
@@ -38,7 +38,7 @@ magn_ellipsoid_transform: [[0.906274, 0.0256863, 0.0141310], [0.0256863, 0.85137
 #magn_ellipsoid_transform: [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 # AHRS to robot calibration
-imu_yaw_calibration: 0.0
+imu_yaw_calibration: 7.0
 
 ### gyroscope
 gyro_average_offset_x: -20.12
